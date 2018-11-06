@@ -12,3 +12,4 @@ module "dynamo_codebuild" {
   source  = "codebuild"
   project_name= "${var.project_name}-dynamo-codebuild"
 }
+
